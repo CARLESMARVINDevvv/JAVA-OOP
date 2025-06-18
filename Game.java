@@ -54,6 +54,7 @@ class Armor{
         this.name = name;
     }
 
+
     void show(){
         System.out.println("armor : " + this.name + "defence :" + this.defencePower);
     }
