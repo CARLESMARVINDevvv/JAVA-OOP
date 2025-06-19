@@ -28,7 +28,7 @@ public class Encapsulasi {
         object.intPublic = 10;
         System.out.println("Nilai intPublic: " + object.intPublic);
 
-        // private (pakai setter untuk mengubah, getter untuk membaca)
+        // private (pakai setter untuk mengubah Nilai , getter untuk membaca)
         object.setIntPrivate(99); // Mengatur nilai
         System.out.println("Nilai intPrivate: " + object.getIntPrivate()); // Membaca nilai
     }
